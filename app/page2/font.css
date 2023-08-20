@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moul&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Cherry+Bomb+One&family=Cinzel:wght@500&family=Lobster&family=Montserrat:wght@400;500&family=Open+Sans&family=Raleway:wght@200&family=Tektur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Cherry+Bomb+One&family=Cinzel:wght@500&family=Lobster&family=Montserrat:wght@400;500&family=Open+Sans&family=Raleway:wght@200&family=Rubik+Wet+Paint&family=Tektur&display=swap');
+
+
+
+
+.head1-font{
+    font-family:Jacques Francois Shadow,sans-serif ;
+}
+
+.head2-font{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.news-head{
+   font-family: 'Moul', cursive;
+}
+
+.sub-head{
+    font-family: 'Nerko One', cursive;
+    font-size: 40px;
+    margin-bottom: 12px;
+    font-weight: 700;
+}
+.text{
+    font-family: 'Cormorant', serif;
+    font-weight: bold;
+    letter-spacing: 0.01px;
+}
+
+b{
+    font-family: 'Cinzel', serif;
+    font-size: 25px;
+    font-weight:bold;
+}
+
+
+
+
+.page5 {
+    padding: 25px 0;
+    /* border-top: 1px solid #2f2f2f;
+    border-bottom: 1px solid #2f2f2f; */
+
+    white-space: nowrap;
+    /* overflow-x: auto; */
+    overflow-y: hidden;
+}
+
+.page5::-webkit-scrollbar {
+    display: none;
+}
+
+.page5 h1 {
+    /* font-size: 100px; */
+    font-family: domain;
+    font-weight: 400;
+    display: inline-block;
+    /* background-color: red; */
+    animation-timing-function: linear;
+    /* margin-right: px; */
+    animation-name: scroll;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    font-family: 'Rubik Wet Paint', cursive;
+
+}
+
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-99% - 12px));
+    }
+}
+

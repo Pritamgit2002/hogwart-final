@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Cherry+Bomb+One&family=Cinzel:wght@500&family=Lobster&family=Montserrat:wght@400;500&family=Open+Sans&family=Raleway:wght@200&family=Rubik+Wet+Paint&family=Tektur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+
+font-face{
+    font-family:myFont ;
+    src:url(bad.ttf);
+}
+
+.bg-col{
+    background: hsla(42, 7%, 45%, 1);
+
+background: radial-gradient(circle, hsla(42, 7%, 45%, 1) 0%, hsla(32, 48%, 24%, 1) 82%);
+
+background: -moz-radial-gradient(circle, hsla(42, 7%, 45%, 1) 0%, hsla(32, 48%, 24%, 1) 82%);
+
+background: -webkit-radial-gradient(circle, hsla(42, 7%, 45%, 1) 0%, hsla(32, 48%, 24%, 1) 82%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#7B766A", endColorstr="#5B3F20", GradientType=1 );
+}
+
+
+
+
+.main_font{
+    font-family: 'Rubik Wet Paint', cursive,sans-serif;
+    font-weight: 300;
+    background: #823D08;
+background: linear-gradient(to bottom, #472002 64%, #CF1512 51%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+
+}
+
+.box_font{
+    font-family: myFont;
+    font-weight: 400;
+}

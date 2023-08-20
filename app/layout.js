@@ -1,6 +1,5 @@
-"use client";
+
 import "./globals.css";
-import { ReactLenis, useLenis } from "@studio-freight/react-lenis";
 
 import { Inter } from "next/font/google";
 

@@ -9,11 +9,11 @@ font-face{
 .bg-col{
     background: hsla(42, 7%, 45%, 1);
 
-background: radial-gradient(circle, hsla(42, 7%, 45%, 1) 0%, hsla(32, 48%, 24%, 1) 82%);
+background: -webkit-radial-gradient(circle, hsla(42, 7%, 45%, 1) 0%, hsla(32, 48%, 24%, 1) 82%);
 
 background: -moz-radial-gradient(circle, hsla(42, 7%, 45%, 1) 0%, hsla(32, 48%, 24%, 1) 82%);
 
-background: -webkit-radial-gradient(circle, hsla(42, 7%, 45%, 1) 0%, hsla(32, 48%, 24%, 1) 82%);
+background: radial-gradient(circle, hsla(42, 7%, 45%, 1) 0%, hsla(32, 48%, 24%, 1) 82%);
 
 filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#7B766A", endColorstr="#5B3F20", GradientType=1 );
 }

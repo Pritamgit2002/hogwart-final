@@ -38,7 +38,7 @@ const Hogwart1 = () => {
         </div>
 
         <div className=" ml-auto mr-auto w-[100%] items-center justify-center inline-block align-middle">
-          <div className=" md:h-36 w-auto pl-44 md:pl-5 lg:pl-px md:pl-auto md:w-auto flex items-center align-middle justify-around bg-yellow-300  gap-10 ">
+          <div className=" md:h-36 w-auto pl-44 md:pl-5 lg:pl-px md:pl-auto md:w-auto flex items-center align-middle justify-around bg--300  gap-10 ">
             {/* <div> */}
 
             

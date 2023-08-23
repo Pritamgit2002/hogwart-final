@@ -57,9 +57,9 @@ const Wanted = () => {
           muted
           src="/assets/wanted_video.mp4"
           alt="logo"
-          width={700}
+          width={1000}
           height={120}
-          className=" h-auto w-auto sepia object-cover drop-shadow-2xl p-3"
+          className=" h-auto w-auto sepia object-cover px-28 drop-shadow-2xl p-3"
         />
 
         <div className="text-2xl md:text-auto bg-black my-10 text-center w-auto uppercase p-4 font-semibold text-[#a98865] box_font tracking-wider">

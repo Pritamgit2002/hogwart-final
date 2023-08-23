@@ -49,6 +49,7 @@ b{
     white-space: nowrap;
     /* overflow-x: auto; */
     overflow-y: hidden;
+    font-weight: 600;
 }
 
 .page5::-webkit-scrollbar {

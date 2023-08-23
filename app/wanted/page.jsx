@@ -7,7 +7,7 @@ import "./wanted.css";
 
 const Wanted = () => {
   return (
-    <div className=" flex-col inline-block align-middle w-auto m-auto bg-red-500 justify-center">
+    <div className=" flex-col inline-block align-middle w-auto m-auto justify-center">
 
         {/* paper heading */}
 

@@ -76,7 +76,7 @@ const Hogwart1 = () => {
                 alt="hallowin"
                 width={280}
                 height={120}
-                className="scale-125 h-12 lg:h-auto lg:scale-100 p-1 "
+                className="scale-125 h-12 lg:h-auto lg:scale-100 p-1 hidden "
               />
             {/* </div> */}
           </div>

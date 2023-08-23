@@ -18,7 +18,7 @@ const Hogwart1 = () => {
               />
             </div>
 
-            <div className=" font-serif text-[30px] md:text-[85px] text-center pb-4  head1-font tracking-widest text-black font-medium">
+            <div className=" font-serif text-[30px] md:text-[85px] text-center pb-4  head1-font tracking-widest text-black font-medium w-auto">
               DAILY PROPHET
               <div className="text-[12px] mt-[-22px] pt-5 head2-font font-bold text-center mx-[15.7px] md:mx-0">
                 THE CODER WORLDS BIGGEST PROPAGANDA AND HOT TAKES

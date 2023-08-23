@@ -105,16 +105,6 @@ const hogwart2 = () => {
 
 
 
-
-
-
-
-
-
-
-
-
-
             {/* 2nd panel */}
 
             <div className="bg-yellow-30 m-4 h-screen w-[95%] lg:w-[34%] grid grid-rows-3 grid-flow-col ">

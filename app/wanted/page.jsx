@@ -7,7 +7,7 @@ import "./wanted.css";
 
 const Wanted = () => {
   return (
-    <div className=" flex-col w-max inline-block align-middle  bg--500 ">
+    <div className=" flex-col w-max inline-block align-middle  bg-red-500 justify-center">
 
         {/* paper heading */}
 
@@ -107,6 +107,21 @@ const Wanted = () => {
                 height={260}
               />
         </div>
+        </div>
+      </div>
+
+
+      <div className="flex gap-2 h-auto justify-center
+       bg-emerald-500 p-2">
+        <div className="bg-pink-300 h-auto w-[600px] p-5">
+          <span className="font-bold text-4xl pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+          <br />
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt praesentium porro dolores rem impedit modi ex, velit quibusdam, totam expedita nam! Ullam, optio adipisci mollitia accusantium fugiat nobis voluptatum, vero suscipit maxime accusamus recusandae earum laborum blanditiis aliquid fugit maiores provident iure exercitationem atque. Recusandae corrupti sapiente nihil facere omnis id nisi doloremque, illum tempora.
+        </div>
+        <div className="bg-pink-300 h-auto p-5 w-[600px]">
+        <span className="font-bold text-4xl pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+        <br />
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex laudantium quod ad qui sit quisquam eius necessitatibus excepturi fuga iste maiores rerum nihil, accusamus nam consequuntur autem aliquid dolor nihil, omnis, saepe placeat tempore! Vero ex aut, voluptatibus ad ipsam aliquam! Distinctio dicta qui laudantium ratione deleniti, architecto soluta fugit numquam. dolores rem impedit modi ex, velit quibusdam, totam expedita nam!
         </div>
       </div>
     </div>

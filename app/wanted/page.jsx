@@ -7,7 +7,7 @@ import "./wanted.css";
 
 const Wanted = () => {
   return (
-    <div className=" flex-col inline-block align-middle w-auto bg-red-500 justify-center">
+    <div className=" flex-col inline-block align-middle w-auto m-auto bg-red-500 justify-center">
 
         {/* paper heading */}
 
@@ -111,7 +111,7 @@ const Wanted = () => {
       </div>
 
 
-      <div className="flex gap-2 h-auto justify-center
+      {/* <div className="flex gap-2 h-auto justify-center
        bg-emerald-500 p-2">
         <div className="bg-pink-300 h-auto w-[600px] p-5">
           <span className="font-bold text-4xl pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
@@ -123,7 +123,7 @@ const Wanted = () => {
         <br />
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex laudantium quod ad qui sit quisquam eius necessitatibus excepturi fuga iste maiores rerum nihil, accusamus nam consequuntur autem aliquid dolor nihil, omnis, saepe placeat tempore! Vero ex aut, voluptatibus ad ipsam aliquam! Distinctio dicta qui laudantium ratione deleniti, architecto soluta fugit numquam. dolores rem impedit modi ex, velit quibusdam, totam expedita nam!
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -55,11 +55,11 @@ const Wanted = () => {
           autoPlay
           loop
           muted
-          src="/assets/dumb_vid.mp4"
+          src="/assets/wanted_video.mp4"
           alt="logo"
-          width={900}
+          width={700}
           height={120}
-          className=" h-auto w-auto sepia object-fill drop-shadow-2xl p-3"
+          className=" h-auto w-auto sepia object-cover drop-shadow-2xl p-3"
         />
 
         <div className="text-2xl md:text-auto bg-black my-10 text-center w-auto uppercase p-4 font-semibold text-[#a98865] box_font tracking-wider">

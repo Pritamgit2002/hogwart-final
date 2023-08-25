@@ -4,6 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Cherry+Bomb+One&family=Cinzel:wght@500&family=Lobster&family=Montserrat:wght@400;500&family=Open+Sans&family=Raleway:wght@200&family=Tektur&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Cherry+Bomb+One&family=Cinzel:wght@500&family=Lobster&family=Montserrat:wght@400;500&family=Open+Sans&family=Raleway:wght@200&family=Rubik+Wet+Paint&family=Tektur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Cherry+Bomb+One&family=Cinzel:wght@500&family=Lobster&family=Montserrat:wght@400;500&family=Open+Sans&family=Raleway:wght@200&family=Rubik+Wet+Paint&family=Tektur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
 
 
 
@@ -50,6 +52,18 @@ b{
     /* overflow-x: auto; */
     overflow-y: hidden;
     font-weight: 600;
+}
+
+
+.main_font{
+    font-family: 'Rubik Wet Paint', cursive,sans-serif;
+    font-weight: 300;
+    background: #823D08;
+background: linear-gradient(to bottom, #472002 64%, #CF1512 51%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+
 }
 
 .page5::-webkit-scrollbar {

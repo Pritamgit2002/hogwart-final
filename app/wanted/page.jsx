@@ -4,49 +4,47 @@ import { GiDeathSkull, GiSnakeSpiral } from "react-icons/gi";
 import { AiFillStar } from "react-icons/ai";
 
 import "./wanted.css";
+import Link from "next/link";
 
 const Wanted = () => {
   return (
     <div className=" flex-col inline-block align-middle w-auto m-auto justify-center">
+      {/* paper heading */}
 
-        {/* paper heading */}
+      <div className="  pt-8 justify-center items-center w-auto">
+        <div className="flex items-center justify-between bg-[#CDB090] border-[2.2px] border-[black] w-auto  md:w-auto md:ml-4 lg:ml-0">
+          <div className=" px-6 ">
+            <Image
+              src="/assets/logo.png"
+              alt="logo"
+              width={115}
+              height={20}
+              className="p-2"
+            />
+          </div>
 
-
-        <div className="  pt-8 justify-center items-center w-auto">
-          <div className="flex items-center justify-between bg-[#CDB090] border-[2.2px] border-[black] w-auto  md:w-auto md:ml-4 lg:ml-0">
-            <div className=" px-6 ">
-              <Image
-                src="/assets/logo.png"
-                alt="logo"
-                width={115}
-                height={20}
-                className="p-2"
-              />
-            </div>
-
-            <div className=" font-serif text-[30px] md:text-[85px] text-center pb-4  head1-font tracking-widest text-black font-medium">
-              DAILY PROPHET
-              <div className="text-[12px] mt-[-22px] pt-5 head2-font font-bold text-center mx-[15.7px] md:mx-0">
-                THE CODER WORLDS BIGGEST PROPAGANDA AND HOT TAKES
-              </div>
-            </div>
-
-            <div className="">
-              <Image
-                src="/assets/logo2.png"
-                alt="logo"
-                width={155}
-                height={20}
-                className=" p-2"
-              />
+          <div className=" font-serif text-[30px] md:text-[85px] text-center pb-4  head1-font tracking-widest text-black font-medium">
+            DAILY PROPHET
+            <div className="text-[12px] mt-[-22px] pt-5 head2-font font-bold text-center mx-[15.7px] md:mx-0">
+              THE CODER WORLDS BIGGEST PROPAGANDA AND HOT TAKES
             </div>
           </div>
+
+          <div className="">
+            <Image
+              src="/assets/logo2.png"
+              alt="logo"
+              width={155}
+              height={20}
+              className=" p-2"
+            />
+          </div>
         </div>
+      </div>
 
-
-      <div className="m-16 lg:m-40 p-2 border-[22px] border-black flex flex-col items-center justify-center bg-[#a98865]  bg-col ">
+      <div className="m-14 lg:m-40 p-2 border-[22px] border-black flex flex-col items-center justify-center bg-[#a98865]  bg-col ">
         <div>
-          <Image src="/assets/death.png" alt="death" width={250} height={50}/>
+          <Image src="/assets/death.png" alt="death" width={250} height={50} />
         </div>
         <div className="text-[90px] md:text-[128px] text-center font-serif font-extrabold w-[800px] main_font ">
           HAVE YOU SEEN THIS WIZARD ?
@@ -76,40 +74,40 @@ const Wanted = () => {
 
         <div className="flex justify-center items-center p-auto bg--700">
           <div>
-            <Image src="/assets/snake.png" alt="snake" width={260} height={60} />
+            <Image
+              src="/assets/snake.png"
+              alt="snake"
+              width={260}
+              height={60}
+            />
           </div>
           <div>
             <div className="text-center text-2xl py-1 font-serif flec-col font-medium">
               Any information leading to the arrest of this
             </div>
 
-
-
             <div className="flex items-center justify-center gap-6 p-auto">
-            <AiFillStar className="text-5xl text-yellow-400 "/>
-            <div className="text-center text-4xl font-serif capitalize font-semibold ">
-              man shall be duly rewarded
+              <AiFillStar className="text-5xl text-yellow-400 " />
+              <div className="text-center text-4xl font-serif capitalize font-semibold ">
+                man shall be duly rewarded
+              </div>
+              <AiFillStar className="text-5xl text-yellow-400" />
             </div>
-            <AiFillStar className="text-5xl text-yellow-400"/>
-            </div>
-
-
 
             <div className="text-center font-semibold text-3xl pt-4 pb-10 font-serif capitalize">
               Notify immediately by OWL the Ministry of Magic
             </div>
           </div>
-            <div>
-              <Image
-                src="/assets/snake.png"
-                alt="snake"
-                width={260}
-                height={260}
-              />
-        </div>
+          <div>
+            <Image
+              src="/assets/snake.png"
+              alt="snake"
+              width={260}
+              height={260}
+            />
+          </div>
         </div>
       </div>
-
 
       {/* <div className="flex gap-2 h-auto justify-center
        bg-emerald-500 p-2">
@@ -124,6 +122,14 @@ const Wanted = () => {
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex laudantium quod ad qui sit quisquam eius necessitatibus excepturi fuga iste maiores rerum nihil, accusamus nam consequuntur autem aliquid dolor nihil, omnis, saepe placeat tempore! Vero ex aut, voluptatibus ad ipsam aliquam! Distinctio dicta qui laudantium ratione deleniti, architecto soluta fugit numquam. dolores rem impedit modi ex, velit quibusdam, totam expedita nam!
         </div>
       </div> */}
+
+      <div className="flex items-center justify-center w-auto">
+        <Link href="/">
+          <div className="text-white bg-yellow-800 p-4 text-xl font-medium  text-center rounded-3xl mb-6">
+            Previous Page
+          </div>
+        </Link>
+      </div>
     </div>
   );
 };

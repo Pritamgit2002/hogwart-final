@@ -13,9 +13,11 @@ const hogwart3 = () => {
         <h1>He-Who-Must-Not-Be-Named-</h1>
         {/* <h1>Let's create something together</h1> */}
       </div>
-      <div>
+      <div className="flex items-center justify-center w-auto">
         <Link href="/wanted">
-          Next Page
+          <div className="text-white bg-yellow-800 p-4 text-xl font-medium  text-center rounded-3xl mb-6">
+            Next Page
+          </div>
         </Link>
       </div>
     </div>
